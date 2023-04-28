@@ -10,7 +10,7 @@ function Project() {
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
-        <h1 className="heading">My Latest Project</h1>
+        <h1 className="heading">My Latest Projects</h1>
         <p className="heading p__color">
           I have small projects in MERN Stack Development &
           Java-Springboot-Mongodb-React Full Stack Development
