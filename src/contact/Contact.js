@@ -33,7 +33,7 @@ const sendEmail = (e) => {
                         <div className="contact__meta">
                             <h1 className="hire__text">Hire Me.</h1>
                             <p className="hire__text white">I am available for Hiring. Connect with me via phone:</p>
-                           <p className="hire__text white"><strong>+91 6382176848</strong> or email: <a href="mailto:sureshganga12007@gmail.com"><strong>sureshganga12007@gmail.com</strong></a></p>
+                           <p className="hire__text white"><strong style={{cursor:"pointer"}} title='Call me'>+91 6382176848</strong> or email: <a href="mailto:sureshganga12007@gmail.com"><strong title='Click to Mail me'>sureshganga12007@gmail.com</strong></a></p>
                         </div>
                         <div className="input__box">
                             <form ref={form} onSubmit={sendEmail}>
