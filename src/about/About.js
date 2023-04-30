@@ -33,7 +33,7 @@ function About() {
               </p>
               <p className="about__text p__color">
                 Since I'm beginner, formostly looking for learning when working & I'm a fastlearner,
-                I'm ready to chase my passion with irrespective of locations
+                I'm ready to chase my passion with irrespective of locations.
                 Finally I'm passionate to Code...
               </p>
               <div className="about__button d__flex align__items__center">
