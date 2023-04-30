@@ -20,10 +20,10 @@ function About() {
             <div className="about__meta">
               <p className="about__text p__color">
               I'm Thirumalai, I am currently pursuing B.sc  Computer Science final year
-               in Alagappa university through distance education and I will be graduate in 2024.
+               in Alagappa university through distance education and I will be graduating in 2024.
                I have knowledge in React.js, Node.js, express.js, MongoDB, Java, SpringBoot, Git, GitHub, Postman &
                I have small  projects in above tools, I showcased them in below, hence I can work as Mern Stack
-               Developer & Java Full Stack Developer. so I'm interested to start my journy as Entry level Full Stack
+               Developer or Java Full Stack Developer. so I'm interested to start my journy as Entry level Full Stack
                Developer.
               </p>
               <p className="about__text p__color">
@@ -32,7 +32,7 @@ function About() {
                 to work with such Team.
               </p>
               <p className="about__text p__color">
-                Since I'm beginner, formostly looking for learning & I'm a fastlearner,
+                Since I'm beginner, formostly looking for learning when working & I'm a fastlearner,
                 Finally I'm passinote to Code...
               </p>
               <div className="about__button d__flex align__items__center">

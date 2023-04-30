@@ -2,6 +2,8 @@ import React, { useState,useRef } from 'react';
 import './Contact.css';
 import contactImg from "../img/about-9.jpg"
 import emailjs from '@emailjs/browser';
+import { SiLinkedin } from "react-icons/si";
+import linkedin from "../img/linkedin.png";
 
 function Contact() {
 const[name,setname]=useState("");
@@ -33,7 +35,7 @@ const sendEmail = (e) => {
                         <div className="contact__meta">
                             <h1 className="hire__text">Hire Me.</h1>
                             <p className="hire__text white">I am available for Hiring. Connect with me via phone:</p>
-                           <p className="hire__text white"><strong style={{cursor:"pointer"}} title='Call me'>+91 6382176848</strong> or email: <a href="mailto:sureshganga12007@gmail.com"><strong title='Click to Mail me'>sureshganga12007@gmail.com</strong></a></p>
+                           <p className="hire__text white"><strong style={{cursor:"pointer"}}  title='Call me'>+91 6382176848</strong> or email: <a href="mailto:sureshganga12007@gmail.com"><strong title='Click to Mail me'>sureshganga12007@gmail.com</strong></a></p>
                         </div>
                         <div className="input__box">
                             <form ref={form} onSubmit={sendEmail}>
@@ -49,6 +51,9 @@ const sendEmail = (e) => {
                 <div className="col__2">
                     <img src={contactImg} alt="" className="contact__img" />
                 </div>
+                <div style={{fontSize:"20px", color:"white"}}>
+                     <a href='https://www.linkedin.com/in/thirumalai-e-508343210/' target='_blank'>
+                        Connect with me in Linkedin <img height="40px" src={linkedin} alt="linkedin"></img></a> </div>
             </div>
         </div>
     )
