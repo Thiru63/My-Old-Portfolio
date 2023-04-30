@@ -1,6 +1,6 @@
 import React, { useState,useRef } from 'react';
 import './Contact.css';
-import contactImg from "../img/about-9.jpg"
+import contactImg from "../img/about.png"
 import emailjs from '@emailjs/browser';
 import { SiLinkedin } from "react-icons/si";
 import linkedin from "../img/linkedin.png";
@@ -48,8 +48,8 @@ const sendEmail = (e) => {
                         </div>
                     </div>
                 </div>
-                <div className="col__2">
-                    <img src={contactImg} alt="" className="contact__img" />
+                <div className="col__2" style={{ marginRight:"75px", marginLeft:"75px"}}>
+                    <img width="1000px" src={contactImg} alt="" className="contact__img" />
                 </div>
                 <div style={{fontSize:"20px", color:"white"}}>
                      <a href='https://www.linkedin.com/in/thirumalai-e-508343210/' target='_blank'>
