@@ -4,6 +4,7 @@ import Project1 from '../img/portfolio-1.jpg';
 import Project2 from '../img/portfolio-2.jpg';
 import Project3 from '../img/portfolio-3.jpg';
 import { HiExternalLink } from "react-icons/hi";
+
 // import Project4 from '../img/portfolio-4.jpg';
 
 function Project() {
@@ -34,8 +35,8 @@ function Project() {
                      <h5 className="project__text">Development</h5>
                      <h4 className="project__text">ReactRedux-MoviesApp</h4>
                      <h6 className="project__text">Tools: React, Redux</h6>
-                     <a href="https://github.com/Thiru63/react-redux-moviapp" target="_blank" className="project__btn">Source Code-GitHubLink<HiExternalLink/></a>
-                     <a href="https://reactredux-movieapp.netlify.app/" target="_blank" className="project__btn">DeploymentLink<HiExternalLink/></a>
+                     <a href="https://github.com/Thiru63/react-redux-moviapp" target="_blank" rel="noreferrer" className="project__btn">Source Code-GitHubLink<HiExternalLink/></a>
+                     <a href="https://reactredux-movieapp.netlify.app/" target="_blank" rel="noreferrer" className="project__btn">DeploymentLink<HiExternalLink/></a>
                      </div>
                  </div>
              </div>
@@ -53,9 +54,9 @@ function Project() {
                      <h5 className="project__text">Development</h5>
                      <h4 className="project__text">MernStack-GoalSetterApp</h4>
                      <h6 className="project__text">Tools: React, Redux, Node.js, express.js, MongoDB</h6>
-                     <a href="https://github.com/Thiru63/mern-goalsetterapp" target="_blank" className="project__btn">Source Code-GitHubLink<HiExternalLink/></a>
-                     <a href="https://mern-goalsetterapp.netlify.app" target="_blank" className="project__btn">DeploymentLink-Frontend<HiExternalLink/></a>
-                     <a href="https://goal-setter-appp.onrender.com" target="_blank" className="project__btn">DeploymentLink-Backend<HiExternalLink/></a>
+                     <a href="https://github.com/Thiru63/mern-goalsetterapp" target="_blank" rel="noreferrer" className="project__btn">Source Code-GitHubLink<HiExternalLink/></a>
+                     <a href="https://mern-goalsetterapp.netlify.app" target="_blank" rel="noreferrer" className="project__btn">DeploymentLink-Frontend<HiExternalLink/></a>
+                     <a href="https://goal-setter-appp.onrender.com" target="_blank" rel="noreferrer" className="project__btn">DeploymentLink-Backend<HiExternalLink/></a>
                      </div>
                  </div>
              </div>
@@ -73,10 +74,10 @@ function Project() {
                      <h5 className="project__text">Development</h5>
                      <h4 className="project__text">JavaSpringBootMongodb<br></br>ReactFullStack-MoviesApp</h4>
                      <h6 className="project__text">Tools: React, Redux, Java, SpringBoot, MongoDB</h6>
-                     <a href="https://github.com/Thiru63/javaSpringBootMongodbReact-moviesappFrontend" target="_blank" className="project__btn">Source Code-GitHubLink-Frontend<HiExternalLink/></a>
-                     <a href="https://github.com/Thiru63/javaSpringBootMongodbReact-moviesappBackend" target="_blank" className="project__btn">Source Code-GitHubLink-Backend<HiExternalLink/></a>
-                     <a href="https://javaspringbootmongoreact-moviesapp.netlify.app/" target="_blank" className="project__btn">DeploymentLink-Frontend<HiExternalLink/></a>
-                     <a href="https://javamoviesapp.azurewebsites.net" target="_blank" className="project__btn">DeploymentLink-Backend<HiExternalLink/></a>
+                     <a href="https://github.com/Thiru63/javaSpringBootMongodbReact-moviesappFrontend" target="_blank" rel="noreferrer" className="project__btn">Source Code-GitHubLink-Frontend<HiExternalLink/></a>
+                     <a href="https://github.com/Thiru63/javaSpringBootMongodbReact-moviesappBackend" target="_blank" rel="noreferrer" className="project__btn">Source Code-GitHubLink-Backend<HiExternalLink/></a>
+                     <a href="https://javaspringbootmongoreact-moviesapp.netlify.app/" target="_blank" rel="noreferrer" className="project__btn">DeploymentLink-Frontend<HiExternalLink/></a>
+                     <a href="https://javamoviesapp.azurewebsites.net" target="_blank" rel="noreferrer" className="project__btn">DeploymentLink-Backend<HiExternalLink/></a>
                      </div>
                  </div>
              </div>
