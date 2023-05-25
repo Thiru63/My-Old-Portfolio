@@ -23,7 +23,7 @@ function About() {
                in Alagappa university through distance education and I will be graduating in 2024.
                I have knowledge in React.js, Node.js, express.js, MongoDB, Java, SpringBoot, Git, GitHub, Postman &
                I have small  projects in above tools, I showcased them in below, hence I can work as Mern Stack
-               Developer or Java Full Stack Developer. so I'm interested to start my journy as Entry level Full Stack
+               Developer or Java Full Stack Developer. so I'm interested to start my journey as Entry level Full Stack
                Developer.
               </p>
               <p className="about__text p__color">
